@@ -1,0 +1,22 @@
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# Client data must never be committed
+clients/
+!clients/.gitkeep
+
+# Maintainer notes (private; public-facing doc is README.md)
+CLAUDE.md
+
+# Local-only reference materials (not part of the open-source repo)
+geo-employee/
+recomby.ai*
+*.pdf
